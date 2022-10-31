@@ -54,10 +54,13 @@
     gap: 65px;
   }
 
-  &__btn {
-  }
-
   &__btn-video {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #282a30;
+
     span {
       display: inline-flex;
       align-items: center;
@@ -70,10 +73,6 @@
       margin: 0 24px 0 0;
       transition: all 0.3s ease-in-out;
     }
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    color: #282a30;
 
     @media (min-width: 768px) {
       &:hover {

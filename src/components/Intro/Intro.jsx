@@ -1,4 +1,7 @@
 import React from "react";
+import { Button } from "../Button/Button";
+import { Subtitle } from "../Subtitle/Subtitle";
+import { Title } from "../Title/Title";
 import "./Intro.scss";
 
 export const Intro = () => {
@@ -8,18 +11,13 @@ export const Intro = () => {
         <div className="intro__inner">
           <div className="intro__text-box">
             <img src="img/decor/decor-grid.png" alt="" className="decor-grid" />
-            <h3 className="intro__subtitle section__subtitle">DECORATE HOME</h3>
-            <h2 className="intro__title section__title">
-              Feel your home
-              <br />
-              with a modern design
-              <br />
-              space
-            </h2>
+            <Subtitle c={"intro__subtitle"} text={"DECORATE HOME"} />
+            <Title
+              c={"intro__title"}
+              text={"Feel your home with a modern design space"}
+            />
             <div className="intro__btn-box">
-              <a href="#" className="intro__btn btn">
-                Discover
-              </a>
+              <Button href={"#"} c={"intro__btn"} text={"Discover"} />
               <div className="intro__btn-video">
                 <span>
                   <img src="img/icon/triangle.svg" alt="" />

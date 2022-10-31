@@ -1,8 +1,8 @@
 import React from "react";
-import { Button } from "../Button/Button";
-import { Description } from "../Description/Description";
-import { Title } from "../Title/Title";
-import { TitleBorder } from "../TitleBorder/TitleBorder";
+import { Button } from "../../components/Button/Button";
+import { Description } from "../../components/Description/Description";
+import { Title } from "../../components/Title/Title";
+import { TitleBorder } from "../../components/TitleBorder/TitleBorder";
 
 import "./About.scss";
 

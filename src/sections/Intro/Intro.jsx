@@ -1,7 +1,7 @@
 import React from "react";
-import { Button } from "../Button/Button";
-import { Subtitle } from "../Subtitle/Subtitle";
-import { Title } from "../Title/Title";
+import { Button } from "../../components/Button/Button";
+import { Subtitle } from "../../components/Subtitle/Subtitle";
+import { Title } from "../../components/Title/Title";
 import "./Intro.scss";
 
 export const Intro = () => {

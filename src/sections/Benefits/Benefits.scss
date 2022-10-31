@@ -1,0 +1,124 @@
+.benefits {
+  &__header {
+    margin-bottom: 80px;
+  }
+  &__content {
+    position: relative;
+    max-width: 1010px;
+    width: 100%;
+    margin: 0 auto;
+
+    .decor-dots {
+      position: absolute;
+      width: 480px;
+      left: 69px;
+      bottom: -190px;
+      z-index: -1;
+
+      @media (max-width: 768px) {
+        bottom: 264px;
+      }
+    }
+  }
+  &__img {
+    width: 100%;
+  }
+}
+
+.benefits-card {
+  max-width: 450px;
+  background: #ffffff;
+  box-shadow: 20px 4px 100px rgba(0, 0, 0, 0.1);
+  padding: 58px 44px 44px 117px;
+  position: absolute;
+
+  @media (max-width: 768px) {
+    position: relative;
+    margin-bottom: 50px;
+    padding: 30px 30px 30px 90px;
+  }
+
+  @media (max-width: 425px) {
+    margin-bottom: 30px;
+  }
+
+  &__num {
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    background: rgba(247, 81, 92, 0.05);
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #f7515c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 44px;
+    top: 44px;
+    @media (max-width: 768px) {
+      left: 20px;
+    }
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #282a30;
+    margin-bottom: 13px;
+  }
+
+  &__description {
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(40, 42, 48, 0.4);
+  }
+}
+
+.benefits-card1 {
+  top: 90px;
+  left: -130px;
+
+  @media (max-width: 1240px) {
+    left: 0;
+    top: 140px;
+  }
+
+  @media (max-width: 768px) {
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+  }
+}
+.benefits-card2 {
+  top: -51px;
+  right: 41px;
+
+  @media (max-width: 768px) {
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    margin-left: auto;
+  }
+}
+.benefits-card3 {
+  right: -89px;
+  bottom: -84px;
+  @media (max-width: 1240px) {
+    right: 0;
+  }
+
+  @media (max-width: 768px) {
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+  }
+}

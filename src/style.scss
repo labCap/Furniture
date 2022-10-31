@@ -39,37 +39,3 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
-
-.section__subtitle {
-  font-family: "Poppins";
-  font-weight: 700;
-  font-size: 20px;
-  color: #f7515c;
-}
-
-.section__title {
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 67px;
-
-  color: #282a30;
-}
-
-.btn {
-  padding: 26px 55px;
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 27px;
-  color: #ffffff;
-  background-color: #f7515c;
-  transition: all 0.3s ease-in-out;
-
-  @media (min-width: 768px) {
-    &:hover {
-      background-color: lighten($color: #f7515c, $amount: 10);
-    }
-  }
-  &:active {
-    background-color: darken($color: #f7515c, $amount: 10);
-  }
-}

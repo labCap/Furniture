@@ -1,0 +1,15 @@
+.section__title-border {
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 122px;
+
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+
+  color: #fff;
+
+  @media (max-width: 425px) {
+    font-size: 60px;
+    line-height: 85px;
+  }
+}

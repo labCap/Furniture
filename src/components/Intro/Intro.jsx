@@ -6,7 +6,7 @@ import "./Intro.scss";
 
 export const Intro = () => {
   return (
-    <section className="intro">
+    <section className="section intro">
       <div className="container">
         <div className="intro__inner">
           <div className="intro__text-box">

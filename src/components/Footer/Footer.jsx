@@ -41,7 +41,7 @@ const FooterCol = ({ col, title }) => {
       <div className="footer__title">{title}</div>
       <ul className="footer__list">
         {col.links.map((data) => (
-          <FooterLink links={data} />
+          <FooterLink key={data.text} links={data} />
         ))}
       </ul>
     </div>
@@ -63,7 +63,7 @@ export const Footer = () => {
       <div className="container">
         <div className="footer__inner">
           {footerText.map((data) => (
-            <FooterCol col={data} title={data.title} />
+            <FooterCol key={data.title} col={data} title={data.title} />
           ))}
         </div>
       </div>

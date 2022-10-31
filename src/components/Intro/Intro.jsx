@@ -27,7 +27,7 @@ export const Intro = () => {
             </div>
           </div>
           <div className="intro__img-box">
-            <img src="img/Intro/1.png" alt="intro-img" />
+            <img src="img/Intro/1.png" alt="intro-img" className="intro__img" />
             <img src="img/decor/decor-dots.png" alt="" className="decor-dots" />
           </div>
         </div>

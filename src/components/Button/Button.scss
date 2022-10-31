@@ -15,4 +15,8 @@
   &:active {
     background-color: darken($color: #f7515c, $amount: 10);
   }
+
+  @media (max-width: 425px) {
+    padding: 15px 35px;
+  }
 }

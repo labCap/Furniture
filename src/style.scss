@@ -39,3 +39,11 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+.section {
+  padding-bottom: 300px;
+
+  @media (max-width: 768px) {
+    padding-bottom: 100px;
+  }
+}

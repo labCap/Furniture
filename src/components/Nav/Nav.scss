@@ -1,5 +1,5 @@
 .nav {
-  @media (max-width: 768px) {
+  @media (max-width: 767.98px) {
     position: absolute;
     z-index: 90;
     width: 100vw;
@@ -22,7 +22,7 @@
       gap: 50px;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 767.98px) {
       position: absolute;
       width: 100vw;
       height: 100vh;
@@ -53,7 +53,7 @@
       transition: all 0.3s ease-in-out;
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 767.98px) {
       &:hover {
         &::before {
           width: 100%;

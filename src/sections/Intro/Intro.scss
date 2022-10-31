@@ -102,7 +102,7 @@
       transition: all 0.3s ease-in-out;
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 767.98px) {
       &:hover {
         span {
           background-color: darken($color: #fff, $amount: 10);
